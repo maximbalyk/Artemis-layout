@@ -1,0 +1,20 @@
+.header {
+  margin: 0 auto;
+  width: 100vw;
+  position: relative;
+
+  &__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__other {
+    display: flex;
+  }
+
+  &__language {
+    padding: 0 50px;
+  }
+
+}
