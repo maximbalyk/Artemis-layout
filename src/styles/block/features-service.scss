@@ -1,14 +1,12 @@
 .features-service {
+  position: relative;
   width: 100vw;
   height: 670px;
-  background-color: #f8f8f8;
-  background-repeat: no-repeat;
-  background-position: bottom right;
 
   &__content {
     position: relative;
-    padding-top: 148px;
-    padding-left: 165px;
+    left: 836px;
+    top: 135px;
   }
 
   &__title {
@@ -52,7 +50,7 @@
 
   &__image {
     position: absolute;
-    left: 638.52px;
-    top: 96.53px;
+    left: 100px;
+    top: 116px;
   }
 }
