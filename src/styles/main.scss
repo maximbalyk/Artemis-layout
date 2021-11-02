@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 @import "utils";
 @import "fonts";
 @import "typography";
@@ -9,6 +10,7 @@
 @import "./block/projects.scss";
 @import "./block/features.scss";
 @import "./block/features-service.scss";
+@import "./block/formBlock.scss";
 
 body {
   background: white;
