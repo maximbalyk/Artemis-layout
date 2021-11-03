@@ -30,6 +30,10 @@
     color: $text;
   }
 
+  &__formButton {
+    display: inline-block;
+  }
+
   &__button {
     height: 62px;
     width: 215px;

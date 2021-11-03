@@ -5,4 +5,38 @@
   &__content {
     max-width: 1110px;
   }
+
+  &__formButton {
+    display: inline-block;
+  }
+
+  &__button {
+    height: 62px;
+    width: 215px;
+
+    background: white;
+    border-radius: 31px;
+    border: 1px solid #2d415e;
+    transition: 0.5s;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+
+    &--active {
+      height: 62px;
+      width: 215px;
+      margin-right: 20px;
+      background: $button-active;
+      border-radius: 31px;
+      border: solid $button-active;
+      transition: 0.5s;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+      }
+    }
+  }
 }

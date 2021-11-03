@@ -12,6 +12,10 @@
 @import "./block/features-service.scss";
 @import "./block/formBlock.scss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: white;
 }
